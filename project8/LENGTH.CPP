@@ -9,7 +9,7 @@ void main()
 	int length=0;
 
 	printf("Enter any string:");
-	gets(str);
+	scanf(" %[^\n]", str);
 
 	ptr =str;
 	while(*ptr != '\0')
